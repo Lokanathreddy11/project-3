@@ -1,6 +1,6 @@
 [ansible_servers]
 
-node_1 ansible_host=slave 154.227.166.52
+node_1 ansible_host=slave 1 154.227.166.52
 node_2 ansible_host=slave 2 137.772.155.51
 node_3 ansible_host=slave 3 164.992.177.56
 
