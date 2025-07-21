@@ -1,0 +1,14 @@
+---
+- name: example
+  hosts: ansible_servers
+  remote_user: ec2_user
+  become: true
+  task
+   - name intall httpd
+     yum
+       name: httpd
+       state: latest
+   - name: start httpd
+     service
+     name: httpd
+     state: started
